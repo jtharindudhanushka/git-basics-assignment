@@ -5,6 +5,12 @@ def add_numbers(a, b):
     """
     return a + b
 
+def subtract_numbers(a, b):
+    """
+    This function takes two numbers as input
+    and returns their difference.
+    """
+    return a - b
 
 # Example usage
 if __name__ == "__main__":
@@ -13,3 +19,4 @@ if __name__ == "__main__":
 
     result = add_numbers(num1, num2)
     print("The sum is:", result)
+    print("The difference is:", subtract_numbers(10, 4))
